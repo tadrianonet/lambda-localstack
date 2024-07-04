@@ -10,7 +10,7 @@ exports.handler = async (event) => {
         };
     }
 
-    const apiKey = 'X9WQEX7HWYXK6G90';
+    const apiKey = 'X9WQEX7HWYXK6G90'; //chave temp
     const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=${apiKey}`;
 
     try {
